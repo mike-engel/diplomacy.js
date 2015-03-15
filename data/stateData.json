@@ -1,0 +1,171 @@
+{
+    "boh": {
+        "name": "Bohemia",
+        "startingPower": "austria",
+        "currentPower": "austria",
+        "coast": false,
+        "supplyDepot": false,
+        "ocean": false,
+        "borders": [
+            "mun",
+            "sil",
+            "gal",
+            "vie",
+            "tyr"
+        ]
+    },
+    "bud": {
+        "name": "Budapest",
+        "startingPower": "austria",
+        "currentPower": "austria",
+        "coast": false,
+        "supplyDepot": true,
+        "ocean": false,
+        "borders": [
+            "vie",
+            "gal",
+            "rum",
+            "ser",
+            "tri"
+        ]
+    },
+    "gal": {
+        "name": "Galicia",
+        "startingPower": "austria",
+        "currentPower": "austria",
+        "coast": false,
+        "supplyDepot": false,
+        "ocean": false,
+        "borders": [
+            "boh",
+            "sil",
+            "war",
+            "ukr",
+            "rum",
+            "bud",
+            "vie"
+        ]
+    },
+    "tri": {
+        "name": "Trieste",
+        "startingPower": "austria",
+        "currentPower": "austria",
+        "coast": true,
+        "supplyDepot": true,
+        "ocean": false,
+        "borders": [
+            "tyr",
+            "vie",
+            "bud",
+            "ser",
+            "alb",
+            "adr",
+            "ven"
+        ]
+    },
+    "tyr": {
+        "name": "Tyrolia",
+        "startingPower": "austria",
+        "currentPower": "austria",
+        "coast": false,
+        "supplyDepot": false,
+        "ocean": false,
+        "borders": [
+            "mun",
+            "boh",
+            "vie",
+            "tri",
+            "ven",
+            "pie"
+        ]
+    },
+    "vie": {
+        "name": "Vienna",
+        "startingPower": "austria",
+        "currentPower": "austria",
+        "coast": false,
+        "supplyDepot": true,
+        "ocean": false,
+        "borders": [
+            "tyr",
+            "boh",
+            "gal",
+            "bud",
+            "tri"
+        ]
+    },
+    "cly": {
+        "name": "Clyde",
+        "startingPower": "england",
+        "currentPower": "england",
+        "coast": true,
+        "supplyDepot": false,
+        "ocean": false,
+        "borders": [
+            "edi",
+            "liv",
+            "nat",
+            "nrg"
+        ]
+    },
+    "edi": {
+        "name": "Edinburgh",
+        "startingPower": "england",
+        "currentPower": "england",
+        "coast": true,
+        "supplyDepot": true,
+        "ocean": false,
+        "borders": [
+            "cly",
+            "yor",
+            "liv",
+            "nrg",
+            "nth"
+        ]
+    },
+    "liv": {
+        "name": "Liverpool",
+        "startingPower": "england",
+        "currentPower": "england",
+        "coast": true,
+        "supplyDepot": true,
+        "ocean": false,
+        "borders": [
+            "cly",
+            "edi",
+            "yor",
+            "wal",
+            "iri",
+            "nat"
+        ]
+    },
+    "lon": {
+        "name": "London",
+        "startingPower": "england",
+        "currentPower": "england",
+        "coast": true,
+        "supplyDepot": true,
+        "ocean": false,
+        "borders": [
+            "wal",
+            "yor",
+            "nth",
+            "eng"
+        ]
+    },
+    "yor": {
+        "name": "Yorkshire",
+        "startingPower": "england",
+        "currentPower": "england",
+        "coast": true,
+        "supplyDepot": false,
+        "ocean": false,
+        "borders": [
+            "edi",
+            "lon",
+            "wal",
+            "liv",
+            "nth"
+        ]
+    }
+}
