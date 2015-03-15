@@ -1,0 +1,36 @@
+{
+  "name": "diplomacy.js",
+  "version": "0.1.0",
+  "description": "A diplomacy rule engine written in javascript",
+  "main": "diplomacy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mike-engel/diplomacy.js.git"
+  },
+  "keywords": [
+    "diplomacy",
+    "board",
+    "game",
+    "game",
+    "rule",
+    "engine"
+  ],
+  "author": "mike engel <mike@beardfury.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mike-engel/diplomacy.js/issues"
+  },
+  "engines": [
+    "0.12.x",
+    "1.x"
+  ],
+  "homepage": "https://github.com/mike-engel/diplomacy.js",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-jscs": "^1.4.0",
+    "gulp-jshint": "^1.9.2"
+  }
+}
