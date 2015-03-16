@@ -19,5 +19,7 @@
     "jquery": true,
     "loopfunc": true,
     "node": true,
-    "browserify": true
+    "browserify": true,
+    "asi": true,
+    "esnext": true
 }
