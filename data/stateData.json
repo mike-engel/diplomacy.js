@@ -5,7 +5,6 @@
         "currentPower": "austria",
         "coast": false,
         "supplyDepot": false,
-        "ocean": false,
         "borders": [
             "mun",
             "sil",
@@ -20,7 +19,6 @@
         "currentPower": "austria",
         "coast": false,
         "supplyDepot": true,
-        "ocean": false,
         "borders": [
             "vie",
             "gal",
@@ -35,7 +33,6 @@
         "currentPower": "austria",
         "coast": false,
         "supplyDepot": false,
-        "ocean": false,
         "borders": [
             "boh",
             "sil",
@@ -52,7 +49,6 @@
         "currentPower": "austria",
         "coast": true,
         "supplyDepot": true,
-        "ocean": false,
         "borders": [
             "tyr",
             "vie",
@@ -69,7 +65,6 @@
         "currentPower": "austria",
         "coast": false,
         "supplyDepot": false,
-        "ocean": false,
         "borders": [
             "mun",
             "boh",
@@ -85,7 +80,6 @@
         "currentPower": "austria",
         "coast": false,
         "supplyDepot": true,
-        "ocean": false,
         "borders": [
             "tyr",
             "boh",
@@ -100,7 +94,6 @@
         "currentPower": "england",
         "coast": true,
         "supplyDepot": false,
-        "ocean": false,
         "borders": [
             "edi",
             "liv",
@@ -114,7 +107,6 @@
         "currentPower": "england",
         "coast": true,
         "supplyDepot": true,
-        "ocean": false,
         "borders": [
             "cly",
             "yor",
@@ -129,7 +121,6 @@
         "currentPower": "england",
         "coast": true,
         "supplyDepot": true,
-        "ocean": false,
         "borders": [
             "cly",
             "edi",
@@ -145,7 +136,6 @@
         "currentPower": "england",
         "coast": true,
         "supplyDepot": true,
-        "ocean": false,
         "borders": [
             "wal",
             "yor",
@@ -159,13 +149,636 @@
         "currentPower": "england",
         "coast": true,
         "supplyDepot": false,
-        "ocean": false,
         "borders": [
             "edi",
             "lon",
             "wal",
             "liv",
             "nth"
+        ]
+    },
+    "bre": {
+        "name": "Brest",
+        "startingPower": "france",
+        "currentPower": "france",
+        "coast": true,
+        "supplyDepot": true,
+        "borders": [
+            "pic",
+            "par",
+            "gas",
+            "mid",
+            "eng"
+        ]
+    },
+    "bur": {
+        "name": "Burgundy",
+        "startingPower": "france",
+        "currentPower": "france",
+        "coast": false,
+        "supplyDepot": false,
+        "borders": [
+            "par",
+            "pic",
+            "bel",
+            "ruh",
+            "mun",
+            "mar",
+            "gas"
+        ]
+    },
+    "gas": {
+        "name": "Gascony",
+        "startingPower": "france",
+        "currentPower": "france",
+        "coast": true,
+        "supplyDepot": false,
+        "borders": [
+            "bre",
+            "par",
+            "bur",
+            "mar",
+            "spa",
+            "mid"
+        ]
+    },
+    "mar": {
+        "name": "Marseilles",
+        "startingPower": "france",
+        "currentPower": "france",
+        "coast": true,
+        "supplyDepot": true,
+        "borders": [
+            "gas",
+            "bur",
+            "pie",
+            "gol",
+            "spa"
+        ]
+    },
+    "par": {
+        "name": "Paris",
+        "startingPower": "france",
+        "currentPower": "france",
+        "coast": false,
+        "supplyDepot": true,
+        "borders": [
+            "bre",
+            "pic",
+            "bur",
+            "gas"
+        ]
+    },
+    "pic": {
+        "name": "Picardy",
+        "startingPower": "france",
+        "currentPower": "france",
+        "coast": true,
+        "supplyDepot": false,
+        "borders": [
+            "bre",
+            "bel",
+            "bur",
+            "par",
+            "eng"
+        ]
+    },
+    "ber": {
+        "name": "Berlin",
+        "startingPower": "germany",
+        "currentPower": "germany",
+        "coast": true,
+        "supplyDepot": true,
+        "borders": [
+            "kie",
+            "pru",
+            "sil",
+            "mun",
+            "bal"
+        ]
+    },
+    "kie": {
+        "name": "Kiel",
+        "startingPower": "germany",
+        "currentPower": "germany",
+        "coast": true,
+        "supplyDepot": true,
+        "borders": [
+            "ber",
+            "mun",
+            "ruh",
+            "hol",
+            "hel",
+            "bal"
+        ]
+    },
+    "mun": {
+        "name": "Munich",
+        "startingPower": "germany",
+        "currentPower": "germany",
+        "coast": false,
+        "supplyDepot": true,
+        "borders": [
+            "ruh",
+            "kie",
+            "ber",
+            "sil",
+            "boh",
+            "tyr",
+            "bur"
+        ]
+    },
+    "pru": {
+        "name": "Prussia",
+        "startingPower": "germany",
+        "currentPower": "germany",
+        "coast": true,
+        "supplyDepot": false,
+        "borders": [
+            "ber",
+            "lvn",
+            "war",
+            "sil",
+            "bal"
+        ]
+    },
+    "ruh": {
+        "name": "Ruhr",
+        "startingPower": "germany",
+        "currentPower": "germany",
+        "coast": false,
+        "supplyDepot": false,
+        "borders": [
+            "kie",
+            "mun",
+            "bur",
+            "bel",
+            "hol"
+        ]
+    },
+    "sil": {
+        "name": "Silesia",
+        "startingPower": "germany",
+        "currentPower": "germany",
+        "coast": false,
+        "supplyDepot": false,
+        "borders": [
+            "mun",
+            "ber",
+            "pru",
+            "war",
+            "gal",
+            "boh"
+        ]
+    },
+    "apu": {
+        "name": "Apulia",
+        "startingPower": "italy",
+        "currentPower": "italy",
+        "coast": true,
+        "supplyDepot": false,
+        "borders": [
+            "ven",
+            "nap",
+            "rom",
+            "adr",
+            "ion"
+        ]
+    },
+    "nap": {
+        "name": "Naples",
+        "startingPower": "italy",
+        "currentPower": "italy",
+        "coast": true,
+        "supplyDepot": true,
+        "borders": [
+            "rom",
+            "apu",
+            "ion",
+            "tyn"
+        ]
+    },
+    "pie": {
+        "name": "Piedmont",
+        "startingPower": "italy",
+        "currentPower": "italy",
+        "coast": true,
+        "supplyDepot": false,
+        "borders": [
+            "mar",
+            "tyr",
+            "ven",
+            "tus",
+            "gol"
+        ]
+    },
+    "rom": {
+        "name": "Rome",
+        "startingPower": "italy",
+        "currentPower": "italy",
+        "coast": true,
+        "supplyDepot": true,
+        "borders": [
+            "tus",
+            "ven",
+            "apu",
+            "nap",
+            "tyn"
+        ]
+    },
+    "tus": {
+        "name": "Tuscany",
+        "startingPower": "italy",
+        "currentPower": "italy",
+        "coast": true,
+        "supplyDepot": false,
+        "borders": [
+            "pie",
+            "ven",
+            "rom",
+            "tyn",
+            "gol"
+        ]
+    },
+    "ven": {
+        "name": "Venice",
+        "startingPower": "italy",
+        "currentPower": "italy",
+        "coast": true,
+        "supplyDepot": true,
+        "borders": [
+            "pie",
+            "tyr",
+            "tri",
+            "apu",
+            "nap",
+            "tus",
+            "adr"
+        ]
+    },
+    "fin": {
+        "name": "Finland",
+        "startingPower": "russia",
+        "currentPower": "russia",
+        "coast": true,
+        "supplyDepot": false,
+        "borders": [
+            "nwy",
+            "stp",
+            "bot"
+        ]
+    },
+    "lvn": {
+        "name": "Livonia",
+        "startingPower": "russia",
+        "currentPower": "russia",
+        "coast": true,
+        "supplyDepot": false,
+        "borders": [
+            "stp",
+            "mos",
+            "war",
+            "pru",
+            "bal",
+            "bot"
+        ]
+    },
+    "mos": {
+        "name": "Moscow",
+        "startingPower": "russia",
+        "currentPower": "russia",
+        "coast": false,
+        "supplyDepot": true,
+        "borders": [
+            "stp",
+            "sev",
+            "ukr",
+            "war",
+            "lvn"
+        ]
+    },
+    "sev": {
+        "name": "Sevastool",
+        "startingPower": "russia",
+        "currentPower": "russia",
+        "coast": true,
+        "supplyDepot": true,
+        "borders": [
+            "ukr",
+            "mos",
+            "arm",
+            "rum",
+            "bla",
+            "tyr"
+        ]
+    },
+    "stp": {
+        "name": "St. Petersburgh",
+        "startingPower": "russia",
+        "currentPower": "russia",
+        "coast": true,
+        "supplyDepot": true,
+        "borders": [
+            "fin",
+            "mos",
+            "lvn",
+            "bar",
+            "bot"
+        ]
+    },
+    "ukr": {
+        "name": "Ukraine",
+        "startingPower": "russia",
+        "currentPower": "russia",
+        "coast": false,
+        "supplyDepot": false,
+        "borders": [
+            "war",
+            "mos",
+            "sev",
+            "rum",
+            "gal"
+        ]
+    },
+    "war": {
+        "name": "Warsaw",
+        "startingPower": "russia",
+        "currentPower": "russia",
+        "coast": false,
+        "supplyDepot": true,
+        "borders": [
+            "sil",
+            "pru",
+            "lvn",
+            "ukr",
+            "gal"
+        ]
+    },
+    "ank": {
+        "name": "Ankara",
+        "startingPower": "turkey",
+        "currentPower": "turkey",
+        "coast": true,
+        "supplyDepot": true,
+        "borders": [
+            "con",
+            "arm",
+            "smy",
+            "bla"
+        ]
+    },
+    "arm": {
+        "name": "Armenia",
+        "startingPower": "turkey",
+        "currentPower": "turkey",
+        "coast": true,
+        "supplyDepot": false,
+        "borders": [
+            "ank",
+            "syr",
+            "smy",
+            "bla"
+        ]
+    },
+    "con": {
+        "name": "Constantinople",
+        "startingPower": "turkey",
+        "currentPower": "turkey",
+        "coast": true,
+        "supplyDepot": true,
+        "borders": [
+            "bul",
+            "ank",
+            "smy",
+            "aeg",
+            "bla"
+        ]
+    },
+    "smy": {
+        "name": "Smyrna",
+        "startingPower": "turkey",
+        "currentPower": "turkey",
+        "coast": true,
+        "supplyDepot": true,
+        "borders": [
+            "con",
+            "ank",
+            "arm",
+            "syr",
+            "aeg",
+            "bla",
+            "eas"
+        ]
+    },
+    "syr": {
+        "name": "Syria",
+        "startingPower": "turkey",
+        "currentPower": "turkey",
+        "coast": true,
+        "supplyDepot": false,
+        "borders": [
+            "smy",
+            "arm",
+            "eas"
+        ]
+    },
+    "alb": {
+        "name": "Albania",
+        "startingPower": "neutral",
+        "currentPower": "neutral",
+        "coast": true,
+        "supplyDepot": false,
+        "borders": [
+            "tri",
+            "ser",
+            "gre",
+            "adr",
+            "ion"
+        ]
+    },
+    "bel": {
+        "name": "Belgium",
+        "startingPower": "neutral",
+        "currentPower": "neutral",
+        "coast": true,
+        "supplyDepot": true,
+        "borders": [
+            "hol",
+            "ruh",
+            "bur",
+            "pic",
+            "eng",
+            "nth"
+        ]
+    },
+    "bul": {
+        "name": "Bulgaria",
+        "startingPower": "neutral",
+        "currentPower": "neutral",
+        "coast": true,
+        "supplyDepot": true,
+        "borders": [
+            "ser",
+            "rum",
+            "con",
+            "gre",
+            "bla",
+            "aeg"
+        ]
+    },
+    "den": {
+        "name": "Denmark",
+        "startingPower": "neutral",
+        "currentPower": "neutral",
+        "coast": true,
+        "supplyDepot": true,
+        "borders": [
+            "kie",
+            "swe",
+            "nth",
+            "ska",
+            "bal",
+            "hel"
+        ]
+    },
+    "gre": {
+        "name": "Greece",
+        "startingPower": "neutral",
+        "currentPower": "neutral",
+        "coast": true,
+        "supplyDepot": true,
+        "borders": [
+            "alb",
+            "ser",
+            "bul",
+            "ion",
+            "aeg"
+        ]
+    },
+    "hol": {
+        "name": "Holland",
+        "startingPower": "neutral",
+        "currentPower": "neutral",
+        "coast": true,
+        "supplyDepot": true,
+        "borders": [
+            "kie",
+            "ruh",
+            "bel",
+            "nth",
+            "hel"
+        ]
+    },
+    "nwy": {
+        "name": "Norway",
+        "startingPower": "neutral",
+        "currentPower": "neutral",
+        "coast": true,
+        "supplyDepot": true,
+        "borders": [
+            "swe",
+            "fin",
+            "nth",
+            "nrg",
+            "bar",
+            "ska"
+        ]
+    },
+    "naf": {
+        "name": "North Africa",
+        "startingPower": "neutral",
+        "currentPower": "neutral",
+        "coast": true,
+        "supplyDepot": false,
+        "borders": [
+            "tun",
+            "mid",
+            "wes"
+        ]
+    },
+    "por": {
+        "name": "Portugal",
+        "startingPower": "neutral",
+        "currentPower": "neutral",
+        "coast": true,
+        "supplyDepot": true,
+        "borders": [
+            "spa",
+            "mid"
+        ]
+    },
+    "rum": {
+        "name": "Rumania",
+        "startingPower": "neutral",
+        "currentPower": "neutral",
+        "coast": true,
+        "supplyDepot": true,
+        "borders": [
+            "bud",
+            "gal",
+            "ukr",
+            "sev",
+            "bul",
+            "ser",
+            "bla"
+        ]
+    },
+    "ser": {
+        "name": "Serbia",
+        "startingPower": "neutral",
+        "currentPower": "neutral",
+        "coast": false,
+        "supplyDepot": true,
+        "borders": [
+            "tri",
+            "bud",
+            "rum",
+            "bul",
+            "gre",
+            "alb"
+        ]
+    },
+    "spa": {
+        "name": "Spain",
+        "startingPower": "neutral",
+        "currentPower": "neutral",
+        "coast": true,
+        "supplyDepot": true,
+        "borders": [
+            "por",
+            "gas",
+            "mar",
+            "mid",
+            "gol",
+            "wes"
+        ]
+    },
+    "swe": {
+        "name": "Sweden",
+        "startingPower": "neutral",
+        "currentPower": "neutral",
+        "coast": true,
+        "supplyDepot": true,
+        "borders": [
+            "nwy",
+            "fin",
+            "den",
+            "ska",
+            "bot",
+            "bal"
+        ]
+    },
+    "tun": {
+        "name": "Tunis",
+        "startingPower": "neutral",
+        "currentPower": "neutral",
+        "coast": true,
+        "supplyDepot": true,
+        "borders": [
+            "naf",
+            "wes",
+            "tyn",
+            "ion"
         ]
     }
 }
