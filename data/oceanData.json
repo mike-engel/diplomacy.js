@@ -1,0 +1,217 @@
+{
+    "adr": {
+        "name": "Adriatic Sea",
+        "borders": [
+            "ven",
+            "tri",
+            "alb",
+            "apu",
+            "ion"
+        ]
+    },
+    "aeg": {
+        "name": "Aegean Sea",
+        "borders": [
+            "gre",
+            "bul",
+            "con",
+            "smy",
+            "bla",
+            "eas",
+            "ion"
+        ]
+    },
+    "bal": {
+        "name": "Baltic Sea",
+        "borders": [
+            "den",
+            "swe",
+            "lvn",
+            "pru",
+            "ber",
+            "kie",
+            "hel",
+            "bot"
+        ]
+    },
+    "bar": {
+        "name": "Barhents Sea",
+        "borders": [
+            "stp",
+            "nwy",
+            "nrg"
+        ]
+    },
+    "bla": {
+        "name": "Black Sea",
+        "borders": [
+            "bul",
+            "rum",
+            "sev",
+            "arm",
+            "ank",
+            "con",
+            "aeg"
+        ]
+    },
+    "eas": {
+        "name": "Eastern Medditerranean Sea",
+        "borders": [
+            "smy",
+            "syr",
+            "ion",
+            "aeg"
+        ]
+    },
+    "eng": {
+        "name": "English Channel",
+        "borders": [
+            "wal",
+            "lon",
+            "bel",
+            "pic",
+            "bre",
+            "mid",
+            "iri",
+            "nth"
+        ]
+    },
+    "bot": {
+        "name": "Gulf of Bothnia",
+        "borders": [
+            "swe",
+            "fin",
+            "stp",
+            "lvn",
+            "bal"
+        ]
+    },
+    "gol": {
+        "name": "Gulf of Lyon",
+        "borders": [
+            "spa",
+            "mar",
+            "pie",
+            "tus",
+            "tyn",
+            "wes"
+        ]
+    },
+    "hel": {
+        "name": "Helgoland Bight",
+        "borders": [
+            "den",
+            "kie",
+            "hol",
+            "nth",
+            "bal"
+        ]
+    },
+    "ion": {
+        "name": "Ionian Sea",
+        "borders": [
+            "tun",
+            "nap",
+            "apu",
+            "alb",
+            "gre",
+            "tyn",
+            "adr",
+            "aeg",
+            "eas"
+        ]
+    },
+    "iri": {
+        "name": "Irish Sea",
+        "borders": [
+            "liv",
+            "wal",
+            "mid",
+            "nat",
+            "eng"
+        ]
+    },
+    "mid": {
+        "name": "Mid-Atlantic Ocean",
+        "borders": [
+            "bre",
+            "gas",
+            "spa",
+            "por",
+            "naf",
+            "nat",
+            "iri",
+            "eng",
+            "wes"
+        ]
+    },
+    "nat": {
+        "name": "North Atlantic Ocean",
+        "borders": [
+            "cly",
+            "liv",
+            "nrg",
+            "iri",
+            "mid"
+        ]
+    },
+    "nth": {
+        "name": "North Sea",
+        "borders": [
+            "edi",
+            "nwy",
+            "den",
+            "hol",
+            "bel",
+            "lon",
+            "yor",
+            "nrg",
+            "ska",
+            "hel",
+            "eng"
+        ]
+    },
+    "nrg": {
+        "name": "Norwegian Sea",
+        "borders": [
+            "nwy",
+            "edi",
+            "cly",
+            "nat",
+            "bar",
+            "nth"
+        ]
+    },
+    "ska": {
+        "name": "Skagerrak Sea",
+        "borders": [
+            "nwy",
+            "swe",
+            "den",
+            "nth"
+        ]
+    },
+    "tyn": {
+        "name": "Tyrrhenian Sea",
+        "borders": [
+            "tus",
+            "rom",
+            "nap",
+            "tun",
+            "wes",
+            "gol",
+            "ion"
+        ]
+    },
+    "wes": {
+        "name": "Western Mediterranean Sea",
+        "borders": [
+            "spa",
+            "tun",
+            "nat",
+            "mid",
+            "gol",
+            "tyn"
+        ]
+    }
+}
