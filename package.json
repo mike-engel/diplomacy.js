@@ -4,7 +4,7 @@
   "description": "A diplomacy rule engine written in javascript",
   "main": "diplomacy.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/**/*.js | tap-spec"
   },
   "repository": {
     "type": "git",
@@ -31,6 +31,9 @@
   "devDependencies": {
     "gulp": "^3.8.11",
     "gulp-jscs": "^1.4.0",
-    "gulp-jshint": "^1.9.2"
+    "gulp-jshint": "^1.9.2",
+    "pre-commit": "^1.0.6",
+    "tap-spec": "^2.2.2",
+    "tape": "^3.5.0"
   }
 }
