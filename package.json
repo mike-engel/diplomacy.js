@@ -24,7 +24,6 @@
     "url": "https://github.com/mike-engel/diplomacy.js/issues"
   },
   "engines": [
-    "0.12.x",
     "1.x"
   ],
   "homepage": "https://github.com/mike-engel/diplomacy.js",
